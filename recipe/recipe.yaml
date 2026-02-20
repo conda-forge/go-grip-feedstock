@@ -1,5 +1,5 @@
 context:
-  version: "0.5.6"
+  version: "0.8.0"
 
 package:
   name: go-grip
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/chrishrb/go-grip/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 217e1a86842d64dc70bcb89e341954f338b270d05fe240b02830ae50968d168f
+  sha256: 3012ac5def1d3278ca8dbf29fe0589486f83abc681ca0fcf0f2d2a0b00d9fef6
 
 build:
-  number: 2
+  number: 0
   script:
     - go-licenses save . --save_path library_licenses
     - if: unix
