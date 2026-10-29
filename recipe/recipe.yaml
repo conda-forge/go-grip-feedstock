@@ -1,5 +1,5 @@
 context:
-  version: "0.10.0"
+  version: "0.11.0"
 
 package:
   name: go-grip
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/chrishrb/go-grip/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 15fe41b2c2e6c3d8ace76acb0b53871ec5045f22ab663f4d31ad300cf178cdde
+  sha256: dc33bca6966194ae8869ae96a7c5a958010888ca42f8e3e34d91c26cbaa50219
 
 build:
   number: 0
